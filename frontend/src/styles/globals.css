@@ -14,3 +14,18 @@ body {
 .protestRevolution {
     font-family: var(--font-decorative);
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #5892f0, #9e6bec, #ed8d47);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #101010;
+}

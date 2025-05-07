@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Navbar from "../components/Navbar"
 import { FiArrowRightCircle } from 'react-icons/fi';
 import PortFolioImg from "../public/images/PortFolioImg.png"
+import About from '../pages/About';
 
 export default function Home() {
     return (
@@ -31,6 +32,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <About />
         </main>
     )
 }

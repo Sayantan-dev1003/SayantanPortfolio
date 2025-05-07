@@ -1,0 +1,40 @@
+.link {
+    position: relative;
+    display: inline-block;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.link:hover {
+    background: linear-gradient(90deg, #5892f0, #9e6bec, #ed8d47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shake 1s;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(5deg); }
+    40% { transform: rotate(-5deg); }
+    60% { transform: rotate(5deg); }
+    80% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #5892f0, #9e6bec, #ed8d47);
+    -webkit-background-clip: underline;
+    -webkit-text-fill-color: transparent;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.link:hover::after {
+    width: 100%;
+    left: 0;
+}

@@ -1,8 +1,8 @@
 'use client';
-
 import Link from 'next/link';
-import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiMenu } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiMenu, FiMail } from 'react-icons/fi';
 import { FaRedditAlien } from 'react-icons/fa';
+import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si'
 import '../styles/underline.css';
 import "../styles/shake.css"
 
@@ -16,11 +16,11 @@ export default function Navbar() {
                 <Link href="/about" className="text-gray-300 font-semibold link transition">
                     About
                 </Link>
-                <Link href="/skills" className="text-gray-300 font-semibold link transition">
-                    Skills
-                </Link>
                 <Link href="/projects" className="text-gray-300 font-semibold link transition">
                     Projects
+                </Link>
+                <Link href="/contacts" className="text-gray-300 font-semibold link transition">
+                    Contacts
                 </Link>
             </div>
 
@@ -29,20 +29,29 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center space-x-6 mobile:hidden tablet:hidden">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gray-500 transition-colors">
+                <a href="https://github.com/Sayantan-dev1003" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gray-500 transition-colors">
                     <FiGithub className="h-5 w-5 shake-icons" />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-700 transition-colors">
                     <FiLinkedin className="h-5 w-5 shake-icons" />
+                </a>
+                <a href="mailto:sayantanhalder78@gmail.com" className="text-gray-300 hover:text-red-500 transition-colors">
+                    <FiMail className="h-5 w-5 shake-icons" />
+                </a>
+                <a href="https://leetcode.com/u/vIkgaPmZuL/" target="_blank" rel="noopener noreferrer" className="text-gray-300  hover:text-orange-500 transition-colors">
+                    <SiLeetcode className="h-5 w-5 shake-icons" />
+                </a>
+                <a href="https://www.geeksforgeeks.org/user/sayantanhihnp/" target="_blank" rel="noopener noreferrer" className="text-gray-300  hover:text-green-700 transition-colors">
+                    <SiGeeksforgeeks className="h-6 w-6 shake-icons" />
+                </a>
+                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" className="text-gray-300  hover:text-orange-600 transition-colors">
+                    <FaRedditAlien className="h-5 w-5 shake-icons" />
                 </a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
                     <FiTwitter className="h-5 w-5 shake-icons" />
                 </a>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-pink-600  transition-colors">
                     <FiInstagram className="h-5 w-5 shake-icons" />
-                </a>
-                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" className="text-gray-300  hover:text-orange-600 transition-colors">
-                    <FaRedditAlien className="h-5 w-5 shake-icons" />
                 </a>
             </div>
 

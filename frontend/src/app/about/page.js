@@ -1,16 +1,24 @@
 import { FaCloud, FaLaptop, FaRobot } from "react-icons/fa"
-import "../styles/shake.css"
+import "../../styles/shake.css"
+import Navbar from "../../components/Navbar"
+import Experience from "../../components/Experience"
+import Stats from "../../components/Stat"
+import Footer from "../../components/Footer"
 
 export default function About() {
     return (
-        <main className="w-full min-h-screen bg-[#101010] pt-24 mobile:pt-20 flex justify-center items-start">
-            <section className="w-full flex flex-col gap-16 items-center justify-center px-16 mobile:px-6 tablet:px-8 mobile:gap-12">
-                <div className="w-2/3 mobile:w-full flex flex-col justify-center items-center text-center">
-                    <h1 className="text-5xl font-extrabold mb-10 tracking-wider mobile:text-4xl text-gray-300 relative">
+        <main className="w-full bg-[#101010] min-h-screen">
+            <Navbar />
+            <section className="w-full min-h-screen flex flex-col gap-16 pb-24 items-center justify-center px-16 mobile:px-6 tablet:px-8 mobile:gap-12">
+                <p className="text-gray-300 w-4/5 mobile:w-full pt-36 mobile:pt-16 text-center text-7xl mobile:text-4xl font-bold mb-2 tracking-widest">Turning Vision Into Reality With Code and Design.</p>
+                <div className="w-4/5 mobile:w-full flex flex-col justify-center items-center text-center text-gray-300">
+                    <h1 className="text-5xl font-extrabold mb-10 tracking-wider mobile:text-3xl relative">
                         About Me
                         <div className="w-36 mobile:w-24 h-1 absolute -bottom-3 rounded-xl bg-gradient-to-r from-[#5892f0] via-[#9e6bec] to-[#ed8d47] left-1/2 trasnform -translate-x-1/2"></div>
                     </h1>
-                    <p className="text-gray-300">I&apos;m a passionate <strong>Full Stack Developer</strong> and <strong>UI Designer</strong> - building intelligent and scalable solutions with <strong>machine learning</strong> concepts for next-gen web experiences.</p>
+                    <p>I&apos;m a passionate <strong>Full Stack Developer</strong> and <strong>UI/UX Designer</strong>, focused on building intelligent, scalable web solutions powered by <strong>machine learning</strong>. With strong experience in both frontend and backend development, I craft digital products that are functional, intuitive, and visually compelling.</p>
+
+                    <p className="mt-2">My approach combines clean <strong>UI design</strong> with robust system architecture to create seamless user experiences. I stay ahead by exploring new <strong>technologies</strong> and <strong>frameworks</strong>, always pushing to deliver innovative, <strong>data-driven</strong> solutions. Whether designing interfaces or implementing complex features, I bring a problem-solving mindset and a commitment to excellence in every project I take on.</p>
                 </div>
                 <div className="w-full flex flex-col gap-6">
                     <div className="w-[50.25%] mobile:w-full border-l-[6px] border-l-blue-400 ml-auto flex px-10 mobile:px-4">
@@ -48,6 +56,9 @@ export default function About() {
                     </div>
                 </div>
             </section>
+            <Stats />
+            <Experience />
+            <Footer />
         </main>
     )
 }

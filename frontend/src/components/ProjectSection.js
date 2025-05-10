@@ -10,7 +10,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export default function ProjectSection() {
     return (
         <section className="w-full mobile:w-full text-center flex flex-col gap-16 items-center justify-center px-16 mobile:px-0 tablet:px-12 mobile:gap-12">
-            <div className="mt-12 mobile:mt-6 flex flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full">
+            <div className="mt-12 mobile:mt-6 flex border border-gray-400 flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl p-6 gap-8 text-white w-full shadowDesign">
                 <Image
                     src={SmartAttendanceSystem}
                     alt="Portfolio"
@@ -33,7 +33,7 @@ export default function ProjectSection() {
                 </div>
             </div>
 
-            <div className="mt-12 mobile:mt-6 flex laptop:flex-row-reverse flex-col items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full">
+            <div className="mt-12 mobile:mt-6 flex border border-gray-400 laptop:flex-row-reverse flex-col items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full shadowDesign">
                 <Image
                     src={Telemedicine}
                     alt="Portfolio"
@@ -56,7 +56,7 @@ export default function ProjectSection() {
                 </div>
             </div>
 
-            <div className="mt-12 mobile:mt-6 flex flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full">
+            <div className="mt-12 mobile:mt-6 flex border border-gray-400 flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full shadowDesign">
                 <Image
                     src={MindScan}
                     alt="Portfolio"
@@ -80,7 +80,7 @@ export default function ProjectSection() {
                 </div>
             </div>
 
-            <div className="mt-12 mobile:mt-6 flex laptop:flex-row-reverse flex-col items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full">
+            <div className="mt-12 mobile:mt-6 flex border border-gray-400 laptop:flex-row-reverse flex-col items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full shadowDesign">
                 <Image
                     src={Taggle}
                     alt="Portfolio"
@@ -103,7 +103,7 @@ export default function ProjectSection() {
                 </div>
             </div>
 
-            <div className="mt-12 mobile:mt-6 flex flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full">
+            <div className="mt-12 mobile:mt-6 flex border border-gray-400 flex-col laptop:flex-row items-start bg-[#181818] rounded-3xl shadow-inner p-6 gap-8 text-white w-full shadowDesign">
                 <Image
                     src={BlogApp}
                     alt="Portfolio"

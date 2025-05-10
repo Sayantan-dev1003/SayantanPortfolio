@@ -5,7 +5,7 @@ export default function Experience() {
         <main className="w-full bg-[#101010] pt-24 pb-10 mobile:pt-20 flex justify-center items-start">
             <section className="w-full flex flex-col gap-16 items-center justify-center px-16 mobile:px-6 tablet:px-8 mobile:gap-12">
                 <div className="w-5/6 mobile:w-full flex flex-col text-center">
-                    <h1 className="text-5xl font-extrabold mb-10 tracking-wider mobile:text-4xl text-gray-300 relative">
+                    <h1 className=" text-gray-300 text-5xl font-extrabold mb-10 tracking-wider mobile:text-3xl relative">
                         Work Experience
                         <div className="w-36 mobile:w-24 h-1 absolute -bottom-3 rounded-xl bg-gradient-to-r from-[#5892f0] via-[#9e6bec] to-[#ed8d47] left-1/2 trasnform -translate-x-1/2"></div>
                     </h1>

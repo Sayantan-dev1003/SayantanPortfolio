@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar"
 import Experience from "../../components/Experience"
 import Stats from "../../components/Stat"
 import Footer from "../../components/Footer"
+import Skills from "../../components/Skills"
 
 export default function About() {
     return (
@@ -57,6 +58,7 @@ export default function About() {
                 </div>
             </section>
             <Stats />
+            <Skills />
             <Experience />
             <Footer />
         </main>

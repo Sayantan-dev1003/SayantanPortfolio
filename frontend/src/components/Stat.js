@@ -1,6 +1,6 @@
 export default function Stats() {
     const stats = [
-        { count: "10+", label: "Technologies Mastered" },
+        { count: "20+", label: "Technologies Mastered" },
         { count: "6+", label: "Hackathons Participated" },
         { count: "10+", label: "Projects Completed" },
         { count: "2+", label: "Years of Experience" },

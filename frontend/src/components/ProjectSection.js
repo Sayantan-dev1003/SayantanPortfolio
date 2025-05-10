@@ -27,7 +27,7 @@ export default function ProjectSection() {
                         </p>
                     </div>
                     <div className="flex gap-6">
-                        <FaGithub className="text-3xl" />
+                        <a href="https://github.com/Sayantan-dev1003/AttendanceSystem" target="_blank"><FaGithub className="text-3xl shake-icons" /></a>
                         <button className='bg-gray-300 hover:bg-gray-100 transition-colors duration-300 text-[#101010] flex items-center px-3 py-1 rounded-md gap-2 font-semibold text-sm'>Explore <FaArrowRightLong className='font-semibold' /></button>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function ProjectSection() {
                         </p>
                     </div>
                     <div className="flex gap-6">
-                        <FaGithub className="text-3xl" />
+                        <a href="https://github.com/Sayantan-dev1003/TeleMedicine" target="_blank"><FaGithub className="text-3xl shake-icons" /></a>
                         <button className='bg-gray-300 hover:bg-gray-100 transition-colors duration-300 text-[#101010] flex items-center px-3 py-1 rounded-md gap-2 font-semibold text-sm'>Explore <FaArrowRightLong className='font-semibold' /></button>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export default function ProjectSection() {
 
                     </div>
                     <div className="flex gap-6">
-                        <FaGithub className="text-3xl" />
+                        <a href="https://github.com/Sayantan-dev1003/HealthApp" target="_blank"><FaGithub className="text-3xl shake-icons" /></a>
                         <button className='bg-gray-300 hover:bg-gray-100 transition-colors duration-300 text-[#101010] flex items-center px-3 py-1 rounded-md gap-2 font-semibold text-sm'>Explore <FaArrowRightLong className='font-semibold' /></button>
                     </div>
                 </div>
@@ -93,11 +93,11 @@ export default function ProjectSection() {
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold text-white mobile:text-2xl">Taggle</h2>
                         <p className="text-gray-300 text-sm leading-relaxed">
-                            Taggle is an <strong>interactive Q&A platform</strong> fostering open knowledge exchange and community interaction. It offers a welcoming environment for users to engage in discussions across diverse subjects, from <strong>technical</strong> to general topics. Notably, users can participate <strong>anonymously</strong> in asking questions, commenting, and liking posts.
+                            Taggle is a <strong>web-based interactive Q&A platform</strong> that enables users to ask questions, share answers, and engage in <strong>thread-based discussions</strong>—<strong>anonymously</strong> and <strong>seamlessly</strong>. Designed for <strong>meaningful interaction</strong>, it offers a <strong>modern</strong>, <strong>intuitive</strong> user experience.
                         </p>
                     </div>
                     <div className="flex gap-6">
-                        <FaGithub className="text-3xl" />
+                        <a href="https://github.com/Sayantan-dev1003/Taggle" target="_blank"><FaGithub className="text-3xl shake-icons" /></a>
                         <button className='bg-gray-300 hover:bg-gray-100 transition-colors duration-300 text-[#101010] flex items-center px-3 py-1 rounded-md gap-2 font-semibold text-sm'>Explore <FaArrowRightLong className='font-semibold' /></button>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ export default function ProjectSection() {
 
                     </div>
                     <div className="flex gap-6">
-                        <FaGithub className="text-3xl" />
+                        <a href="https://github.com/Sayantan-dev1003/BlogApp" target="_blank"><FaGithub className="text-3xl shake-icons" /></a>
                         <button className='bg-gray-300 hover:bg-gray-100 transition-colors duration-300 text-[#101010] flex items-center px-3 py-1 rounded-md gap-2 font-semibold text-sm'>Explore <FaArrowRightLong className='font-semibold' /></button>
                     </div>
                 </div>
